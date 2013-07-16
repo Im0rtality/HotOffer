@@ -1,4 +1,4 @@
-[{if ($product->oxarticles__nfq_hotoffer->value == "1")}]
+[{if $product->isHotOffer()}]
     [{assign var="hotoffer" value="hotoffer"}]
     <link rel="stylesheet" href="[{$oViewConf->getModuleUrl('nfqhotoffer','out/src/banner.css')}]"/>
 [{else}]
