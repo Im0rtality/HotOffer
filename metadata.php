@@ -29,7 +29,6 @@ $aModule = array(
     'files' => array(
         'HotOfferInstaller' => 'Nfq/HotOffer/HotOfferInstaller.php',
         'hotoffer_tab' => 'Nfq/HotOffer/Controllers/Admin/HotOffer_Tab.php',
-        'banner.css' => 'Nfq/HotOffer/out/src/banner.css',
     ),
     'settings' => array(),
     'templates' => array(
