@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="[{$oViewConf->getModuleUrl('nfqhotoffer','out/src/banner.css')}]"/>
 [{if $product->isHotOffer()}]
+    <link rel="stylesheet" href="[{$oViewConf->getModuleUrl('nfqhotoffer','out/src/banner.css')}]"/>
     [{assign var="hotoffer" value="hotoffer"}]
 [{else}]
     [{assign var="hotoffer" value=""}]
