@@ -25,6 +25,11 @@ $aModule = array(
             'block' => 'details_productmain_zoom',
             'file' => '/out/blocks/hotoffer_productmain.tpl',
         ),
+        array(
+            'template' => 'widget/product/listitem_infogrid.tpl',
+            'block' => 'widget_product_listitem_infogrid_gridpicture',
+            'file' => '/out/blocks/hotoffer_infogrid.tpl',
+        ),
     ),
     'files' => array(
         'HotOfferInstaller' => 'Nfq/HotOffer/HotOfferInstaller.php',
