@@ -1,7 +1,3 @@
-.hotoffer {
-    position: relative;
-}
-
 .hotoffer:after {
     background: url(banner.png) no-repeat;
     width: 128px;

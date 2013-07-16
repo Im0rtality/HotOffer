@@ -30,6 +30,11 @@ $aModule = array(
             'block' => 'widget_product_listitem_infogrid_gridpicture',
             'file' => '/out/blocks/hotoffer_infogrid.tpl',
         ),
+        array(
+            'template' => 'widget/product/listitem_grid.tpl',
+            'block' => 'widget_product_listitem_grid',
+            'file' => '/out/blocks/hotoffer_grid.tpl',
+        ),
     ),
     'files' => array(
         'HotOfferInstaller' => 'Nfq/HotOffer/HotOfferInstaller.php',
