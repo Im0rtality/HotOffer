@@ -18,6 +18,7 @@ $aModule = array(
     'url' => 'http://www.nfq.lt',
     'email' => 'info@nfq.lt',
     'extend' => array(
+        'oxarticle' => 'HotOfferOxArticle',
     ),
     'blocks' => array(
         array(
@@ -44,6 +45,7 @@ $aModule = array(
     'files' => array(
         'HotOfferInstaller' => 'Nfq/HotOffer/HotOfferInstaller.php',
         'hotoffer_tab' => 'Nfq/HotOffer/Controllers/Admin/HotOffer_Tab.php',
+        'HotOfferOxArticle' => 'Nfq/HotOffer/Models/HotOfferOxArticle.php',
     ),
     'settings' => array(),
     'templates' => array(
