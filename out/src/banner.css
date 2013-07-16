@@ -1,0 +1,20 @@
+.hotoffer {
+    position: relative;
+}
+
+.hotoffer:after {
+    background: url(banner.png) no-repeat;
+    width: 128px;
+    height: 128px;
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.pictureBox.gridPicture.hotoffer:after {
+    top: 10px;
+}
+
